@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=level\ length
+comment0.target=void\ drawKochCurve(int,\ int)
+comment0.text=\r\n\ <b>summary<b>\:\ uses\ recursion\ to\ draw\ a\ koch\ snowflake\r\n
+numComments=1

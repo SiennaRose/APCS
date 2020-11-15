@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=CheckingAccount()
+comment0.text=\r\n\ constructor\ -\ no\ parameters\ passed\ and\ creates\ a\ blank\ checking\ account\ \r\n
+comment1.params=initialBalance\ acctNum
+comment1.target=CheckingAccount(double,\ java.lang.String)
+comment1.text=\r\n\ constructor\ -\ has\ parameters\ and\ sets\ up\ checking\ account.\ Initializes\ the\ myBalance\ and\ the\ myAccountNumber\ variables.\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ Uses\ an\ exception\ throw\ to\ shcek\ that\ the\ initial\ balance\ is\ not\ negative\r\n\ \r\n\ parameter\ double\ initialBalance\ the\ balance\ the\ account\ starts\ with\r\n\ parameter\ String\ acctNum\ the\ account\ number\r\n
+comment2.params=amount
+comment2.target=void\ deposit(double)
+comment2.text=\r\n\ </>summary</>\:\ increase\ myBalance\ by\ amount.\ Uses\ an\ exception\ throw\ to\ check\ if\ the\ amount\ being\ deposited\ is\ negative\r\n\ \r\n\ parameter\ double\ amount\ the\ amount\ wished\ to\ deposite\ into\ myBalance\r\n
+comment3.params=amount
+comment3.target=void\ withdraw(double)
+comment3.text=\r\n\ </>summary</>\:\ decrease\ myBalance\ by\ the\ amount\ passed\ and\ includes\ the\ WITHDRA_FEE.\ Uses\ an\ exception\ throw\ to\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ check\ that\ the\ amount\ being\ withdrawn\ is\ greater\ than\ 0\ and\ less\ than\ the\ myBalnce\ value\r\n\ \r\n\ parameter\ double\ amount\ the\ amount\ wished\ to\ be\ withdrawn\r\n
+comment4.params=
+comment4.target=double\ getBalance()
+comment4.text=\r\n\ </>summary</>\:\ accessor\ method\ which\ returns\ myBalace\r\n
+numComments=5

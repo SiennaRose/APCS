@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=words
+comment0.target=Shorthand(java.lang.String)
+comment0.text=\r\n\ Shorthand\ constructor\ initializes\ input\ and\ then\ goes\ does\ work\ in\ the\ check\ method\r\n
+comment1.params=
+comment1.target=void\ checks()
+comment1.text=\r\n\ check\ method-\ goes\ through\ the\ string\ input\ and\ replaces\ it\ into\ the\ shorthand\ version\r\n
+numComments=2

@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Farm()
+comment0.text=\r\n\ <b>constructor\:<b/>\ initializes\ the\ 3\ elements\ in\ the\ Animal\ ArrayList\ with\ objects\r\n\ NamedCow,\ Chick,\ and\ Pig.\ Each\ object\ ascribes\ to\ the\ protocols\ in\ the\ Animal\ interface.\ \r\n\ \!\!CAUTION\!\!\ Animal\ interface\ and\ Animal\ ArrayList\ are\ not\ to\ be\ confused\ for\ each\ other\r\n
+comment1.params=
+comment1.target=void\ animalSounds()
+comment1.text=\r\n\ <b>summary\:</b>\ traverses\ through\ Animal\ ArrayList\ and\ prints\ to\ screen\ each\ object's\r\n\ type\ and\ sound.\ In\ addition,\ it\ prints\ to\ screen\ the\ name\ of\ the\ NamedCow\ object\ \r\n
+numComments=2

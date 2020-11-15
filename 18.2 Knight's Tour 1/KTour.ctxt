@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=KTour()
+comment0.text=\r\n\ constructor\ -\ initializes\ the\ board\ matrix\ and\ the\ ints\ count,\ row\ ,\ and\ col\r\n
+comment1.params=
+comment1.target=boolean\ move()
+comment1.text=\r\n\ <b>summary</b>\:\ choses\ a\ random\ move\ set\ and\ sends\ coordinates\ to\ the\ check()\ method\ to\ \r\n\ determine\ if\ they\ are\ viable.\ If\ they\ are\ viable\ then\ that\ element\ gets\ filled\ with\ the\ \r\n\ value\ of\ count.\ If\ there\ are\ no\ spots\ viable\ then\ it\ goes\ to\ the\ printKnight()\ method\r\n
+comment2.params=vertical\ horizontal
+comment2.target=boolean\ check(int,\ int)
+comment2.text=\r\n\ <b>summary</b>\:\ accepts\ the\ row\ and\ col\ coordinates\ and\ sees\ if\ that\ spot\ on\ the\ board\ matrix\r\n\ is\ open.\ Retuns\ a\ boolean\ value\ allGood.\ \r\n
+comment3.params=
+comment3.target=void\ printKnight()
+comment3.text=\r\n\ <b>summary</b>\:\ when\ there\ is\ no\ more\ avaiable\ moves\ for\ the\ knight\ to\ make\ or\ if\ the\ knight\r\n\ makes\ it\ to\ all\ 64\ squares\ then\ the\ board\ is\ printed\ to\ screen\ \r\n
+numComments=4

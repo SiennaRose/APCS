@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=numSides\ sideLength
+comment0.target=GraphicPolygon(int,\ double)
+comment0.text=\n\ \ constructor\ GraphicPolygon\ -\ \n\ \ Initializes\ a\ polygon\ of\ numSides\ sides\ and\ sideLength\n\ \ length\ in\ the\ superclass.\ The\ polygon\ is\ centered\ at\n\ \ xPosition\ \=\ yPosition\ \=\ 0\n
+comment1.params=numSides\ sideLength\ x\ y
+comment1.target=GraphicPolygon(int,\ double,\ double,\ double)
+comment1.text=\n\ \ \ \ constructor\ GraphicPolygon\ -\ \n\ \ \ \ Initializes\ a\ polygon\ of\ numSides\ sides\ and\ sideLength\n\ \ \ \ length\ in\ the\ superclass.\ The\ polygon\ is\ centered\ at\n\ \ \ \ xPosition\ \=\ x\ and\ yPosition\ \=\ y\n
+comment2.params=x\ y
+comment2.target=void\ moveTo(double,\ double)
+comment2.text=\n\ <b>summary<b>\:\ Sets\ xPosition\ \=\ x\ and\ yPosition\ \=\ y\ to\ correspond\ to\ the\ new\n\ center\ of\ the\ polygon\n
+comment3.params=
+comment3.target=void\ draw()
+comment3.text=\n\ <b>summary<b>\:\ \n\ \ Draws\ the\ polygon\ about\ the\ center\ point\ (xPosition,\ yPosition).\n\ \ Uses\ properties\ inherited\ from\ RegularPolygon\ to\ determine\ the\n\ \ number\ and\ length\ of\ the\ sides,\ the\ radius\ of\ the\ inscribed\ circle,\n\ \ and\ the\ vertex\ angle\ with\ which\ to\ draw\ the\ polygon\n
+numComments=4

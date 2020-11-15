@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ArrayStack()
+comment0.text=\r\n\ constructor-\ a\ new\ array\ is\ instansiated\r\n
+comment1.params=
+comment1.target=boolean\ isEmpty()
+comment1.text=\r\n\ returns\ boolean\ telling\ whether\ array\ is\ empty\ or\ not\r\n
+comment2.params=obj
+comment2.target=void\ push(java.lang.Object)
+comment2.text=\r\n\ recieves\ an\ object\ to\ push\ onto\ the\ array\ stack\r\n
+comment3.params=
+comment3.target=java.lang.Object\ pop()
+comment3.text=\r\n\ returns\ an\ object\ that\ was\ lastly\ placed\ on\ the\ stack...FILO\r\n
+comment4.params=
+comment4.target=java.lang.Object\ peekTop()
+comment4.text=\r\n\ returns\ an\ object\ of\ what\ will\ come\ off\ the\ top\ of\ the\ array\ stack,\ but\ does\ not\ \r\n\ pop\ it\ from\ the\ stack\ \r\n
+numComments=5

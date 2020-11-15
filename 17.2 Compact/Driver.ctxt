@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment0.text=\r\n\ reads\ in\ a\ txt\ documetn\ and\ sends\ array\ of\ numbers\ to\ compact\ class\ where\ the\ o's\ within\ the\ \r\n\ array\ will\ be\ removed\r\n
+numComments=1

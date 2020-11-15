@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=name\ age\ gender
+comment0.target=Person(java.lang.String,\ int,\ java.lang.String)
+comment0.text=\r\n\ constructor\ Person\ -\ initializes\ myName,\ myAge,\ myGender\r\n\ accepted\ from\ BacktoSchool\ driver\ class\r\n
+comment1.params=
+comment1.target=java.lang.String\ toString()
+comment1.text=\r\n\ \ <b>summary</b>\:\ displays\ name,\ age,\ and\ gender\ to\ screen\ \r\n
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment2.text=\r\n\ <b>summary</b>\:\ returns\ myName\ \r\n
+comment3.params=
+comment3.target=int\ getAge()
+comment3.text=\r\n\ <b>summary</b>\:\ returns\ myAge\r\n
+comment4.params=
+comment4.target=java.lang.String\ getGender()
+comment4.text=\r\n\ <b>summary</b>\:\ returns\ myGender\r\n
+comment5.params=name
+comment5.target=void\ setName(java.lang.String)
+comment5.text=\r\n\ <b>summary</b>\:\ sets\ myName\r\n
+comment6.params=age
+comment6.target=void\ setAge(int)
+comment6.text=\r\n\ <b>summary</b>\:\ sets\ myAge\r\n
+comment7.params=gender
+comment7.target=void\ setGender(java.lang.String)
+comment7.text=\r\n\ <b>summary</b>\:\ sets\ myGender\r\n
+numComments=8

@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=inFile\ outFile
+comment0.target=Spaces(chn.util.FileInput,\ chn.util.FileOutput)
+comment0.text=\r\n\ constructor\ Spaces\ -\ determines\ the\ amount\ of\ spaces\ in\ a\ line\ from\ a\ text\ document\ and\ \r\n\ replaces\ them\ with\ a\ number\ amount\ \ \r\n
+numComments=1

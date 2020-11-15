@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.params=
+comment0.target=WindowEventDemo()
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=evt
+comment2.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment2.text=ActionEvent\ handler
+comment3.params=evt
+comment3.target=void\ windowClosing(java.awt.event.WindowEvent)
+comment3.text=WindowEvent\ handlers
+comment4.params=evt
+comment4.target=void\ windowOpened(java.awt.event.WindowEvent)
+comment5.params=evt
+comment5.target=void\ windowClosed(java.awt.event.WindowEvent)
+comment6.params=evt
+comment6.target=void\ windowIconified(java.awt.event.WindowEvent)
+comment7.params=evt
+comment7.target=void\ windowDeiconified(java.awt.event.WindowEvent)
+comment8.params=evt
+comment8.target=void\ windowActivated(java.awt.event.WindowEvent)
+comment9.params=evt
+comment9.target=void\ windowDeactivated(java.awt.event.WindowEvent)
+numComments=10

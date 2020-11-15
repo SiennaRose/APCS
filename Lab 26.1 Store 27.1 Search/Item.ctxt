@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=id\ inv
+comment0.target=Item(int,\ int)
+comment0.text=\n\ Constructor\ for\ the\ Item\ object\n\n\ @param\ id\ identification\ number\ of\ the\ items\n\ @param\ inv\ the\ number\ of\ items\ with\ that\ identification\ number\n
+comment1.params=
+comment1.target=int\ getId()
+comment1.text=\n\ Gets\ the\ id\ attribute\ of\ the\ Item\ object\n\n\ @return\ The\ id\ value\n
+comment2.params=
+comment2.target=int\ getInv()
+comment2.text=\n\ Gets\ the\ inv\ attribute\ of\ the\ Item\ object\n\n\ @return\ The\ inv\ value\n
+comment3.params=otherObject
+comment3.target=int\ compareTo(java.lang.Object)
+comment3.text=\n\ Compares\ this\ Item\ object\ to\ another\ Item\ object\n\n\ @param\ other\ The\ object\ to\ be\ compared\n\ @return\ the\ value\ 0\ if\ the\ argument\ is\ an\ Item\ whose\ id\n\ field\ is\ equal\ to\ this\ Item's;\ a\ value\ less\ than\ 0\n\ if\ the\ argument\ is\ a\ Item\ whose\ id\ is\ greater\n\ than\ this\ Id's;\ and\ a\ value\ greater\ than\ 0\ if\ the\n\ argument\ if\ a\ Item\ whose\ id\ is\ less\ than\ this\n\ Item.\n
+comment4.params=otherObject
+comment4.target=boolean\ equals(java.lang.Object)
+comment4.text=\n\ Compares\ this\ Item\ to\ the\ specified\ object.\ The\ result\ is\ true\n\ if\ and\ only\ if\ the\ argument\ is\ not\ null\ and\ is\ an\ Item\ object\ that\n\ has\ the\ same\ id\ value\ as\ this\ object.\n\n\ @param\ otherObject\ An\ object\ to\ compare\ this\ Item\ against\n\ @return\ true\ if\ the\ Items'\ id\ are\ equal;\ false\ otherwise.\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\n\ The\ Item\ object\ is\ returned\ as\ a\ String.\ overrides\ toString\n\ in\ class\ Object\n\n\ @return\ String\ representation\ of\ the\ Item\ instance\ variables\n
+numComments=6

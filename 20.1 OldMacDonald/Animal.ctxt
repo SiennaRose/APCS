@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=java.lang.String\ getSound()
+comment0.text=\r\n\ <b>summary<b/>\:\ this\ is\ an\ interface\ method\ and\ acts\ a\ protocal\ method\ for\ any\ classes\r\n\ which\ ascribe\ to\ it\ through\ the\ implements\ keyword.\ All\ ascribed\ classes\ must\ have\ this\ method.\r\n\ Sets\ future\ guidelines\ that\ a\ String\ will\ be\ returned\ from\ this\ method.\ \r\n\ Most\ likely\ an\ accessor\ method\ returning\ a\ sound\ based\ String\r\n
+comment1.params=
+comment1.target=java.lang.String\ getType()
+comment1.text=\r\n\ <b>summary<b/>\:\ this\ is\ an\ interface\ method\ and\ acts\ a\ protocal\ method\ for\ any\ classes\r\n\ which\ ascribe\ to\ it\ through\ the\ implements\ keyword.\ All\ ascribed\ classes\ must\ have\ this\ method.\r\n\ Sets\ future\ guidelines\ that\ a\ String\ will\ be\ returned\ from\ this\ method.\ \r\n\ Most\ likely\ an\ accessor\ method\ returning\ a\ type\ based\ String\r\n
+numComments=2

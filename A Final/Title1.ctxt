@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=Title1
+comment1.params=
+comment1.target=Title1()
+comment1.text=\r\n\ Contructor\ Ttile1\ intializes\ the\ frame\ and\ the\ panel\ and\ calls\ screens\r\n
+comment2.params=
+comment2.target=void\ screen()
+comment2.text=\r\n\ Method\ screen\ sets\ the\ panel's\ bounds\ and\ background\ color.\ Next\ it\ will\ add\ the\ panel\ onto\r\n\ the\ frame\ and\ will\ set\ the\ size\ of\ the\ frame.\ Finally,\ it\ will\ set\ the\ visiblity\ of\ the\ frame\r\n
+comment3.params=
+comment3.target=void\ labels()
+comment3.text=\r\n\ Method\ labels\ creates\ two\ labels\ and\ changes\ their\ background\ color\ and\ foreground\ color\r\n\ Then\ it\ changes\ the\ fonts\ of\ both\ of\ the\ color\ and\ adds\ both\ of\ the\ labels\ to\ the\ panel\r\n
+comment4.params=
+comment4.target=void\ button()
+comment4.text=\r\n\ Method\ button\ creates\ two\ button,\ one\ with\ YES\ on\ it\ and\ the\ other\ with\ NO\ on\ it\r\n\ Then\ is\ will\ change\ the\ bounds\ and\ background\ color\ of\ both\ of\ the\ buttons.\ Next,\ it\ will\ add\r\n\ and\ ActionListener\ to\ both\ of\ the\ buttons,\ so\ if\ either\ of\ them\ are\ pressed,\ an\ action\ will\ occur\r\n\ Both\ buttons\ are\ added\ to\ the\ frame\r\n
+comment5.params=e
+comment5.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment5.text=\r\n\ This\ actionPreformed\ method\ will\ change\ the\ color\ of\ l2\ in\ order\ to\ make\ it\ visible\r\n
+comment6.params=
+comment6.target=void\ sleeps()
+comment6.text=\r\n\ Method\ sleeps\ creates\ three\ labels.\ The\ method\ sets\ the\ bounds,\ fonts,\ background,\ and\ color\ of\ the\ labels.\r\n\ Also,\ it\ uses\ thread.sleep()\ in\ order\ to\ create\ a\ pause\ between\ labels\ and\ it\ sets\ two\ buttons\ onto\ the\ frame\r\n
+comment7.params=e
+comment7.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment7.text=\r\n\ This\ actionpreformed\ method\ is\ for\ the\ YES\ button\ and\ will\ get\ rid\ of\ the\ frame\ and\ call\ the\ math\ class\r\n
+numComments=8

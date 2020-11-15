@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=list
+comment0.target=void\ selectionSort(int[])
+comment0.text=\n\ \ Description\ of\ the\ Method\n\n\ @param\ \ list\ \ Description\ of\ Parameter\n
+comment1.params=a\ b\ c
+comment1.target=void\ merge(int[],\ int[],\ int[])
+comment2.params=
+comment2.target=int[]\ fillArray()
+comment2.text=\n\ \ Initializes\ an\ returns\ temp\ with\ random\ integers\ in\ the\ range\n\ \ 1..largestInt\n\n\ @return\ \ an\ array\ of\ size\ specified\ by\ the\ user\ filled\n\ \ \ \ \ \ \ \ \ \ with\ random\ numbers\n
+comment3.params=temp
+comment3.target=void\ screenOutput(int[])
+comment3.text=\n\ \ prints\ out\ the\ contents\ of\ the\ array\ in\ tabular\ form,\ 20\ columns\n
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+comment4.text=\n\ \ Sorting\ Template\:\n\ \ Provides\ a\ main\ method\ for\ access\ to\ the\ sorting\ menu\n\n\ @param\ \ args\ \ The\ command\ line\ arguments\ -\ not\ used\n
+numComments=5

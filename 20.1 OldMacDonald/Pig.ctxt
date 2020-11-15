@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=type\ sound
+comment0.target=Pig(java.lang.String,\ java.lang.String)
+comment0.text=\r\n\ <b>constructor</b>\:\ initializes\ myType\ and\ mySound\r\n
+comment1.params=
+comment1.target=java.lang.String\ getSound()
+comment1.text=\r\n\ <b>summary\:<b/>\ accessor\ method\ which\ returns\ the\ mySound\ String\ of\ the\ Cow\ object\ \r\n
+comment2.params=
+comment2.target=java.lang.String\ getType()
+comment2.text=\r\n\ <b>summary<b/>\:\ accessor\ method\ which\ returns\ the\ myType\ String\ of\ the\ Cow\ object\r\n
+numComments=3

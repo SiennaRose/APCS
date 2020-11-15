@@ -1,0 +1,101 @@
+package audio;
+
+import javax.sound.sampled.AudioInputStream;
+import javax.sound.sampled.AudioSystem;
+import javax.sound.sampled.Clip;
+
+
+/**
+ * <h1>GameAudio Class</h1>
+ * 
+ * Created:6/25/17
+ * Last Updated:8/17/17
+ * 
+ * <p>The game audio class is meant to handle all of the audio aspects of the game.</p>
+ * 
+ * @author Lauryn Jefferson
+ *
+ */
+public class GameAudio
+{
+
+	/*private static String boom, pew,warning,hurt,overheat;
+	private static String path;
+	
+	public static void init()
+	{
+		boom = "/audio/boom.wav";
+		pew = "/audio/pew.wav";
+		warning = "/audio/warning.wav";
+		hurt = "/audio/hurt.wav";
+		overheat = "/audio/overheat.wav";
+	}
+	
+	/**
+	 * <h2>playSound Class</h2>
+	 * 
+	 * Plays an audio clip based on the 
+	 * 
+	 * @param type
+	 *-/
+	public static void playSound(String type) 
+	{
+		
+		
+		switch(type)
+		{
+			case "boom":
+				path = boom;
+				break;
+			case "pew":
+				path = pew;
+				break;
+			case "warning":
+				path = warning;
+				break;
+			case "hurt":
+				path = hurt;
+				break;
+			case "overheat":
+				path = overheat;
+				break;
+			default:
+				path = boom;
+				break;
+		}
+		
+		try 
+	    {
+	        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(GameAudio.class.getResourceAsStream(path));
+	        Clip clip = AudioSystem.getClip();
+	        clip.open(audioInputStream);
+	        clip.start();
+	    } 
+	    catch(Exception e) 
+	    {
+	        e.printStackTrace();
+	    }
+	}
+	*/
+	
+	
+	/**
+	 *<h2>playAudio</h2>
+	 *
+	 * @param path the path of the audio file to be played
+	 */
+	public static void playAudio(String path)
+	{
+		try 
+	    {
+	        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(GameAudio.class.getResourceAsStream(path));
+	        Clip clip = AudioSystem.getClip();
+	        clip.open(audioInputStream);
+	        clip.start();
+	    } 
+	    catch(Exception e) 
+	    {
+	        e.printStackTrace();
+	    }
+	}
+}

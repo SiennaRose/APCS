@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=initValue\ initNext
+comment0.target=ListNode(java.lang.Object,\ ListNode)
+comment0.text=\n\ \ Constructs\ a\ new\ element\ with\ object\ initValue,\n\ \ followed\ by\ next\ element\n\n\ @param\ \ initValue\ \ New\ element\ object\n\ @param\ \ initNext\ \ \ Reference\ to\ next\ element\n
+comment1.params=initValue
+comment1.target=ListNode(java.lang.Object)
+comment1.text=\n\ \ Constructs\ a\ new\ tail\ of\ a\ list\ with\ object\ initValue\n\n\ @param\ \ initValue\ \ New\ element\ object\n
+comment2.params=theNewValue
+comment2.target=void\ setValue(java.lang.Object)
+comment2.text=\n\ \ Sets\ the\ value\ attribute\ of\ the\ ListNode\ object\n\n\ @param\ \ theNewValue\ \ value\ attribute\ of\ the\ ListNode\ object\n
+comment3.params=theNewNext
+comment3.target=void\ setNext(ListNode)
+comment3.text=\n\ \ Sets\ reference\ to\ new\ next\ value\n\n\ @param\ \ theNewNext\ \ The\ new\ next\ value\n
+comment4.params=
+comment4.target=java.lang.Object\ getValue()
+comment4.text=\n\ \ Returns\ value\ associated\ with\ this\ element\n\n\ @return\ \ \ \ The\ value\ associated\ with\ this\ element\n
+comment5.params=
+comment5.target=ListNode\ getNext()
+comment5.text=\n\ \ Returns\ reference\ to\ next\ value\ in\ list\n\n\ @return\ \ \ \ The\ next\ value\ in\ the\ list\n
+numComments=6

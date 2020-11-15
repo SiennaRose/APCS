@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment0.text=\r\n\ reads\ in\ a\ txt\ doc\ and\ passes\ it\ to\ the\ statistics\ class\r\n\ where\ the\ numbers\ within\ the\ file\ are\ analized\ to\ determine\r\n\ average,\ standard\ deviation,\ and\ mode\r\n
+numComments=1

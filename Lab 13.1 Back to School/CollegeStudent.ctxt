@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=name\ age\ gender\ idNum\ gpa\ year\ major
+comment0.target=CollegeStudent(java.lang.String,\ int,\ java.lang.String,\ java.lang.String,\ double,\ int,\ java.lang.String)
+comment0.text=\r\n\ constructor\ CollegeStudent-\ initializes\ myName,\ myAge,\ and\ myGender(inherited\ variables\ from\ \r\n\ Person\ superclass)\ \r\n\ initializes\ myMajor\ and\ myYear\r\n
+comment1.params=
+comment1.target=java.lang.String\ toString()
+comment1.text=\r\n\ <b>summary</b>\:\ returns\ info\ for\ the\ CollegeStudent\r\n
+comment2.params=
+comment2.target=int\ getYear()
+comment2.text=\r\n\ <b>summary</b>\:returns\ myYear\r\n
+comment3.params=
+comment3.target=java.lang.String\ getMajor()
+comment3.text=\r\n\ <b>summary</b>\:returns\ myMajor\r\n
+comment4.params=year
+comment4.target=void\ setYear(int)
+comment4.text=\r\n\ <b>summary</b>\:initializes\ myYear\r\n
+comment5.params=major
+comment5.target=void\ setMajor(java.lang.String)
+comment5.text=\r\n\ <b>summary</b>\:\ initializes\ myMajor\r\n
+numComments=6

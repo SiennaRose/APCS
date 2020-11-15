@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=IrregularPolygon()
+comment0.text=\n\ constructor\ IrregularPolygon\ -\ initializes\ myPolygon\ ArrayList\ qnd\ count\ \n
+comment1.params=aPoint
+comment1.target=void\ add(java.awt.geom.Point2D.Double)
+comment1.text=\n\ <b>summary</b>\:\ adds\ new\ coordinates\ to\ end\ of\ array\ myPolygon\n
+comment2.params=
+comment2.target=void\ draw()
+comment2.text=\n\ \ <b>summary</b>\:\ draws\ the\ irregular\ polygon\ given\ by\ connecting\ the\ points\ entered\n
+comment3.params=
+comment3.target=double\ perimeter()
+comment3.text=\n\ \ <b>summary</b>\:\ determines\ perimeter\ of\ the\ irregular\ polygon\n
+comment4.params=
+comment4.target=double\ area()
+comment4.text=\n\ \ <b>summary</b>\:\ determines\ the\ area\ of\ the\ irregular\ polygon\ \n
+numComments=5

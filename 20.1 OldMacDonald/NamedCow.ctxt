@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=type\ cowName\ sound
+comment0.target=NamedCow(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment0.text=\r\n\ <b>constructor</b>\:\ uses\ super\ class\ Cow\ to\ initialize\ object's\ type\ and\ sound\ which\ is\ passed\r\n\ thorugh\ the\ super()\ keyword.\r\n\ Initializes\ myCowName.\ \r\n
+comment1.params=
+comment1.target=java.lang.String\ getName()
+comment1.text=\r\n\ <b>summary\:<b/>\ accessor\ method\ which\ returns\ the\ myCowName\ String\ of\ the\ NamedCow\ object\ \r\n
+numComments=2

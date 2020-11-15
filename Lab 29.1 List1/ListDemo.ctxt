@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ListDemo()
+comment1.params=
+comment1.target=void\ createList()
+comment1.text=\n\ \ Creates\ a\ SinglyLinkedList\ of\ 5\ Integer\ nodes\n
+comment2.params=
+comment2.target=void\ displayFirst()
+comment2.text=\n\ \ Display\ the\ first\ element\ of\ the\ list\n
+comment3.params=
+comment3.target=void\ displayLast()
+comment3.text=\n\ \ Display\ the\ last\ element\ of\ the\ list\n
+comment4.params=
+comment4.target=void\ print()
+comment4.text=\n\ \ Print\ the\ contents\ of\ myList\n
+comment5.params=
+comment5.target=void\ printSize()
+comment5.text=\n\ Prints\ out\ how\ many\ nodes\ are\ in\ the\ list\n
+comment6.params=args
+comment6.target=void\ main(java.lang.String[])
+comment6.text=\n\ \ Demostrates\ the\ use\ of\ the\ SinglyLinkedList\ class.\n\ \ Creates\ and\ prints\ a\ list\ of\ 5\ consecutive\ Integer\ ojects.\n\n\ @param\ \ args\ \ The\ command\ line\ arguments\ (not\ used)\n
+numComments=7

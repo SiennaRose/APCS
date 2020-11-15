@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.params=id\ inv
+comment0.target=Item(int,\ int)
+comment0.text=\r\n\ \ Constructor\ for\ the\ Item\ object\r\n\r\n\ @param\ \ id\ \ \ id\ value\r\n\ @param\ \ inv\ \ inventory\ value\r\n
+comment1.params=
+comment1.target=int\ getId()
+comment1.text=\r\n\ \ Gets\ the\ id\ attribute\ of\ the\ Item\ object\r\n\r\n\ @return\ \ \ \ The\ id\ value\r\n
+comment2.params=
+comment2.target=int\ getInv()
+comment2.text=\r\n\ \ Gets\ the\ inv\ attribute\ of\ the\ Item\ object\r\n\r\n\ @return\ \ \ \ The\ inv\ value\r\n
+comment3.params=otherObject
+comment3.target=int\ compareTo(java.lang.Object)
+comment3.text=\r\n\ \ Compares\ two\ Item\ objects\ by\ their\ Id\ (myId)\ fields\r\n\r\n\ @param\ \ otherObject\ \ Item\ object\ to\ compare\ to\r\n\ @return\ \ \ \ \ \ \ \ \ \ \ \ \ \ positive\ int\ if\ myId\ >\ otherObject.myId\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ 0\ if\ myId\ \=\=\ otherObject.myId\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ negative\ int\ if\ myId\ <\ otherObject.myId\r\n
+comment4.params=otherObject
+comment4.target=boolean\ equals(java.lang.Object)
+comment4.text=\r\n\ \ Compares\ the\ Item\ to\ the\ specified\ object\r\n\r\n\ @param\ \ otherObject\ \ Item\ object\ to\ compare\ to\r\n\ @return\ \ \ \ \ \ \ \ \ \ \ \ \ \ true\ if\ equal,\ false\ otherwise\r\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+numComments=6

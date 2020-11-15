@@ -1,0 +1,84 @@
+package main;
+
+import java.awt.Canvas;
+import java.awt.Dimension;
+import java.awt.image.BufferedImage;
+import java.io.IOException;
+
+import javax.imageio.ImageIO;
+import javax.swing.JFrame;
+
+public class Window 
+{
+	private static JFrame frame;
+	private static Canvas canvas;
+	
+	private String title;
+	private static int width;
+	private static int height;
+	
+	private BufferedImage icon;
+	
+	public Window(String title, int width, int height)
+	{
+		this.title = title;
+		this.width = width;
+		this.height = height;
+		
+		init();
+	}
+	
+	private void init()
+	{
+		try
+		{
+			icon = ImageIO.read(getClass().getResourceAsStream("/images/Ship Logo.png"));
+		}
+		catch(IOException e)
+		{
+			e.printStackTrace();
+		}
+		
+		
+		frame = new JFrame(title);
+		
+		frame.setSize(width, height);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.setResizable(false);
+		frame.setLocationRelativeTo(JFrame.CENTER_ALIGNMENT);
+		frame.setVisible(true);
+		
+		 if(icon != null)
+			 frame.setIconImage(icon);
+		 
+		
+		canvas = new Canvas();
+        canvas.setPreferredSize(new Dimension(width,height));
+        canvas.setMinimumSize(new Dimension(width,height));
+        canvas.setMaximumSize(new Dimension(width,height));
+        canvas.setFocusable(false);
+        
+        frame.add(canvas);
+        frame.pack();
+	}
+
+	public static JFrame getFrame() 
+	{
+		return frame;
+	}
+
+	public static Canvas getCanvas() 
+	{
+		return canvas;
+	}
+	
+	public static int getWidth()
+	{
+		return width;
+	}
+	
+	public static int getHeight()
+	{
+		return height;
+	}
+}

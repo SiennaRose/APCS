@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=pal
+comment0.target=Palindrome(java.lang.String)
+comment0.text=\n\ \ constructor\ Palindrome\ -\ initializes\ the\ string/palindrome\n\ \ passed\ to\ input\ and\ sets\ it\ to\ be\ the\ lowercase\ version\ \n
+comment1.params=
+comment1.target=void\ punctuation()
+comment1.text=\n\ <b>summary</b>\:\ goes\ through\ inputed\ string\ and\ removes\ punctuation\ and\ white\ spaces\n\ saves\ result\ into\ variable\ clean\n
+comment2.params=
+comment2.target=boolean\ checking()
+comment2.text=\n\ <b>summary</b>\:\ this\ method\ reverses\ the\ order\ of\ the\ string\ input.\ \n\ It\ then\ checks\ to\ see\ if\ the\ clean\ variable\ and\ the\ reverse\ are\ equivalent.\n\ If\ they\ are\ equivalent\ then\ the\ boolean\ isGood\ returns\ as\ true\ and\ false\ if\ not\ \n\ equivalent.\ \n
+numComments=3

@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=LoanTable()
+comment1.params=
+comment1.target=void\ askForLoan()
+comment2.params=
+comment2.target=void\ askForTime()
+comment3.params=
+comment3.target=void\ askForLowR()
+comment4.params=
+comment4.target=void\ askForHighR()
+comment5.params=
+comment5.target=void\ calculations()
+numComments=6

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=married\ income
+comment0.target=TaxRates(int,\ double)
+comment1.params=
+comment1.target=java.lang.String\ getStatus()
+comment2.params=
+comment2.target=double\ getIncome()
+comment3.params=
+comment3.target=double\ getTax()
+comment4.params=
+comment4.target=void\ taxation()
+comment5.params=
+comment5.target=void\ single()
+comment6.params=
+comment6.target=void\ married()
+numComments=7

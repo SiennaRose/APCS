@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=RPNQueue()
+comment0.text=\r\n\ constructor\ RPNQueue\ -\ initializes\ list\ as\ a\ LinkedList\r\n
+comment1.params=
+comment1.target=boolean\ isEmpty()
+comment1.text=\r\n\ <b>summary</b>\:\ checks\ if\ stack\ is\ empty\r\n\ returns\ \ boolean\r\n
+comment2.params=obj
+comment2.target=void\ enqueue(java.lang.Object)
+comment2.text=\r\n\ <b>summary</b>\:\ adds\ obj\ to\ the\ end\ of\ list\r\n
+comment3.params=
+comment3.target=java.lang.Object\ dequeue()
+comment3.text=\r\n\ <b>summary</b>\:\ removes\ the\ first\ element\ of\ list\r\n\ return\ Object\ (string\ or\ Integer)\r\n
+comment4.params=
+comment4.target=java.lang.Object\ peekFront()
+comment4.text=\r\n\ <b>summary</b>\:\ shows\ what's\ at\ the\ top\ of\ the\ queue\r\n\ return\ Object\ (String\ or\ Integer)\r\n
+numComments=5

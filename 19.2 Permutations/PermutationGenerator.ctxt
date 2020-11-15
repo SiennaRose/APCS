@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=PermutationGenerator()
+comment0.text=\n\ constructor\ -\ declares\ numbers\ and\ permutation\ ArrayLists\ and\ declares\ rand\n
+comment1.params=
+comment1.target=void\ smart()
+comment1.text=\n\ <b>summary</b>\:\ initializes\ the\ numbers\ array\ list\ \n
+comment2.params=rand
+comment2.target=java.util.ArrayList\ nextPermutation(java.util.Random)
+comment2.text=\n\ <b>summary</b>\:\ removes\ a\ random\ Interger\ object\ from\ the\ numbers\ ArrayList\ and\ adds\ it\ \n\ to\ the\ permutation\ list\n\ returns\ the\ next\ permutation\ \n
+numComments=3

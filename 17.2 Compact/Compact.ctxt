@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=inFile
+comment0.target=Compact(chn.util.FileInput)
+comment0.text=\r\n\ constructor\ Compact\ -\ copies\ numbers\ from\ txt\ file\ into\ another\ array\r\n
+comment1.params=copy
+comment1.target=void\ eliminate(int[])
+comment1.text=\r\n\ moves\ cells\ with\ 0\ to\ the\ back\ \r\n
+comment2.params=copy
+comment2.target=void\ before(int[])
+comment2.text=\r\n\ prints\ to\ screen\ original\ input\ from\ file\r\n
+numComments=3

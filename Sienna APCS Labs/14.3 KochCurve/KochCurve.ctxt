@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=KochCurve()
+comment0.text=\n\ constructor\ KochCurve\ -\ \n
+comment1.params=level\ length
+comment1.target=void\ drawKochCurve(int,\ int)
+comment1.text=\n\ <b>summary<b>\:\ \n
+numComments=2

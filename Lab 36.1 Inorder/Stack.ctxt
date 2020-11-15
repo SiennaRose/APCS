@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=boolean\ isEmpty()
+comment0.text=\r\n\ returns\ a\ boolean\ and\ tells\ whether\ stack\ is\ empty\r\n
+comment1.params=x
+comment1.target=void\ push(java.lang.Object)
+comment1.text=\r\n\ recieves\ an\ Object\ that\ will\ be\ pushed\ onto\ the\ stack\r\n
+comment2.params=
+comment2.target=java.lang.Object\ pop()
+comment2.text=\r\n\ returns\ an\ object\ that\ will\ be\ popped\ off\ the\ stack\ \r\n
+comment3.params=
+comment3.target=java.lang.Object\ peekTop()
+comment3.text=\r\n\ returns\ an\ object\ that\ will\ tell\ what\ is\ on\ the\ top\ of\ the\ stack\ without\ popping\ it\ off\r\n
+numComments=4

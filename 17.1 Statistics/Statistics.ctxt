@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=inFile\ fileName
+comment0.target=Statistics(chn.util.FileInput,\ java.lang.String)
+comment0.text=\r\n\ constructor\ Statistics\ -\ initializes\ nums\ array,\ calculates\ the\ amount\ of\ numbers\ within\r\n\ txt\ doc,\ and\ adds\ up\ the\ total\ sum\ of\ all\ numbers\ in\ file\r\n
+comment1.params=
+comment1.target=void\ averageMethod()
+comment1.text=\r\n\ <b>summary<b>\:\ finds\ average\ \r\n
+comment2.params=
+comment2.target=void\ standardDeviation()
+comment2.text=\r\n\ <b>summary<b>\:\ finds\ standard\ deviation\ \r\n
+comment3.params=
+comment3.target=void\ modeMethod()
+comment3.text=\r\n\ <b>summary<b>\:\ finds\ mode\r\n
+numComments=4

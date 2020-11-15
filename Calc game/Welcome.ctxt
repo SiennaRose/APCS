@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Welcome()
+comment1.params=e
+comment1.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment2.params=e
+comment2.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+comment3.text=\ public\ void\ actionPerformed(ActionEvent\ e)\ {\ \ \r\n\ \ \ \ \ \ \ \ String\ s1\=tf1.getText();\ \ \r\n\ \ \ \ \ \ \ \ String\ s2\=tf2.getText();\ \ \r\n\ \ \ \ \ \ \ \ int\ a\=Integer.parseInt(s1);\ \ \r\n\ \ \ \ \ \ \ \ int\ b\=Integer.parseInt(s2);\ \ \r\n\ \ \ \ \ \ \ \ int\ c\=0;\ \ \r\n\ \ \ \ \ \ \ \ if(e.getSource()\=\=b1){\ \ \r\n\ \ \ \ \ \ \ \ \ \ \ \ c\=a+b;\ \ \r\n\ \ \ \ \ \ \ \ }else\ if(e.getSource()\=\=b2){\ \ \r\n\ \ \ \ \ \ \ \ \ \ \ \ c\=a-b;\ \ \r\n\ \ \ \ \ \ \ \ }\ \ \r\n\ \ \ \ \ \ \ \ String\ result\=String.valueOf(c);\ \ \r\n\ \ \ \ \ \ \ \ tf3.setText(result);\ \ \r\n}
+numComments=4

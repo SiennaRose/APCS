@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=type\ sound
+comment0.target=Chick(java.lang.String,\ java.lang.String)
+comment0.text=\r\n\ <b>constructor</b>\:\ initializes\ myType\ and\ mySound.\ In\ addition,\ if\ a\ second\ sound\ string\ \r\n\ was\ not\ passed,\ then\ the\ mySound2\ String\ gets\ an\ empty\ String\r\n
+comment1.params=type\ sound\ sound2
+comment1.target=Chick(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ <b>constructor</b>\:\ initializes\ myType\ and\ mySound.\ In\ addition,\ if\ a\ second\ sound\ string\ \r\n\ was\ passed,\ then\ the\ mySound2\ String\ gets\ the\ sound2\ String\r\n
+comment2.params=
+comment2.target=java.lang.String\ getSound()
+comment2.text=\r\n\ <b>summary<b/>\:\ accessor\ or\ modifier\ method\ which\ returns\ the\ local\ String\ variable,\ sound.\r\n\ Utilizes\ the\ Random()\ from\ the\ java.util.Random\ library\ to\ randomly\ choose\ between\ \r\n\ mySound\ and\ mySound2.\ Returns\ whichever\ sound\ is\ randomly\ choosen,\ but\ before\ that\ \r\n\ it\ determines\ whether\ mySound2\ has\ any\ length\ at\ all\r\n
+comment3.params=
+comment3.target=java.lang.String\ getType()
+comment3.text=\r\n\ <b>summary<b/>\:\ accessor\ method\ which\ returns\ the\ myType\ String\ of\ the\ Chick\ object\r\n
+numComments=4

@@ -1,0 +1,29 @@
+#BlueJ class context
+comment0.params=inFile
+comment0.target=Life(chn.util.FileInput)
+comment0.text=\r\n\ constructor\ Live\ -\ initializes\ live\ matrix\r\n
+comment1.params=
+comment1.target=void\ doOver()
+comment1.text=\r\n\ <b>summary</b>\:\ copies\ data\ from\ live\ matrix\ into\ copy\r\n
+comment2.params=
+comment2.target=void\ traversal()
+comment2.text=\r\n\ <b>summary</b>\:\ traverses\ through\ copy\ matrix\ and\ passes\ location\ of\ elements\ both\ with\r\n\ and\ without\ life\r\n\ calls\ check\r\n
+comment3.params=row\ col
+comment3.target=void\ check(int,\ int)
+comment3.text=\r\n\ <b>summary</b>\:\ checks\ neighbors\ of\ element\ location\ passed\ from\ traversal.\ \r\n\ living\ neighboors\ are\ totaled\ and\ total\ is\ passes\ to\ change.\ \r\n\ calls\ nextGen()\r\n
+comment4.params=row\ col\ total
+comment4.target=void\ nextGen(int,\ int,\ int)
+comment4.text=\r\n\ <b>summary</b>\:\ accepts\ the\ location\ of\ the\ element\ and\ the\ total\ of\ life\ around\ it.\r\n\ Determines\ whether\ the\ location\ lives\ or\ dies\ according\ to\ the\ rules\r\n\ total\ \=\=\ 3\ \=\ birth\r\n\ total\ <\=\ 1\ \=\ death\ "loneliness"\r\n\ total\ >\=\ 4\ \=\ death\ "overcrowding"\r\n\ total\ \=\=\ 2\ ||\ total\ \=\=\ 3\ \=\ no\ change\ \r\n
+comment5.params=
+comment5.target=void\ printLive()
+comment5.text=\r\n\ <b>summary</b>\:\ prints\ what\ the\ petri\ dish\ looks\ like\r\n\ any\ element\ with\ a\ 1\ is\ alive\ any\ w/\ a\ 0\ is\ not\r\n\ calls\ row10(),\ col10(),\ and\ livingOrganisms()\ at\ end\r\n
+comment6.params=
+comment6.target=void\ row10()
+comment6.text=\r\n\ <b>summary</b>\:\ prints\ to\ screen\ how\ many\ organisms\ are\ alive\r\n\ int\ row\ 10\r\n\ called\ by\ printLive()\r\n
+comment7.params=
+comment7.target=void\ col10()
+comment7.text=\r\n\ <b>summary</b>\:\ prints\ out\ to\ screen\ how\ many\ organisms\ are\ alive\r\n\ in\ col\ 10\r\n\ called\ by\ printLive()\r\n
+comment8.params=total
+comment8.target=void\ livingOrganisms(int)
+comment8.text=\r\n\ <b>summary</b>\:\ prints\ out\ to\ screen\ how\ many\ organisms\ are\ alive\ total.\r\n\ accepts\ argumant\ passed\ from\ printLive()\r\n
+numComments=9

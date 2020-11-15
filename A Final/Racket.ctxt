@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Racket()
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Racket\n
+comment1.params=
+comment1.target=void\ move()
+comment1.text=\n\ Moves\ the\ racket\ by\ adding\ the\ dx\ to\ the\ x\ position.\ \n\ Ensures\ that\ the\ racket\ doesn't\ move\ past\ the\ left\ and\ right\ edge\ of\ the\ court.\ \n
+comment2.params=
+comment2.target=int\ getX()
+comment2.text=\n\ Returns\ x\ value\ of\ the\ racket\n
+comment3.params=
+comment3.target=int\ getY()
+comment3.text=\n\ Returns\ y\ value\ of\ the\ racket\n
+comment4.params=
+comment4.target=java.awt.Image\ getImage()
+comment4.text=\n\ Returns\ the\ racket's\ image\n
+comment5.params=e
+comment5.target=void\ keyPressed(java.awt.event.KeyEvent)
+comment5.text=\n\ The\ racket\ moves\ the\ user.\ \n\ Pressing\ the\ left\ key\ causes\ the\ racket\ to\ move\ to\ the\ left\ 3\ units.\ \n\ Pressing\ the\ right\ key\ causes\ the\ racket\ to\ move\ to\ the\ right\ 3\ units.\n
+comment6.params=e
+comment6.target=void\ keyReleased(java.awt.event.KeyEvent)
+comment6.text=\n\ Once\ the\ key\ is\ released,\ the\ racket\ stops\ moving\n
+comment7.params=
+comment7.target=java.awt.Rectangle\ getRect()
+comment7.text=\n\ Returns\ a\ rectangle\ that\ represents\ the\ racket's\ image.\ \n\ To\ mimic\ how\ a\ birdie\ hits\ the\ middle\ netted\ part\ of\ the\ racket,\ the\ rectangle\ is\ slightly\ \n\ lower\ than\ it\ normally\ would\ be\ if\ it\ represented\ the\ image\ itself.\n
+numComments=8

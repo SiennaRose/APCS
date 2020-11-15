@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=fileName
+comment0.target=MergeList(java.lang.String)
+comment0.text=\n\ \ Open\ a\ file\ containing\ id/inventory\ pairs\ of\ data\n\n\ @param\ \ fileName\ \ File\ to\ be\ opened\n
+comment1.params=list
+comment1.target=void\ readData(java.util.LinkedList)
+comment1.text=\n\ \ Reads\ a\ file\ containing\ id/inv\ data\ pairs.\ The\ first\ line\ of\ the\n\ \ file\ contains\ the\ number\ of\ id/inventory\ integer\ pairs\ listed\ on\n\ \ subsequent\ lines.\n\n\ @param\ \ list\ \ Reference\ to\ LinkedList\ to\ which\ data\ will\ be\ added\n
+comment2.params=list
+comment2.target=void\ printList(java.util.LinkedList)
+comment2.text=\n\ \ Prints\ contents\ of\ list\n\n\ @param\ \ list\ \ linked\ list\ to\ be\ printed\n
+comment3.params=listA\ listB
+comment3.target=void\ split(java.util.LinkedList,\ java.util.LinkedList)
+comment3.text=\n\ \ Splits\ listA\ into\ two\ parts.\ listA\ retains\ the\ first\n\ \ half\ of\ the\ list,\ listB\ contains\ the\ last\ half\ of\n\ \ the\ original\ list.\n\n\ @param\ \ listA\ \ \ \ Original\ list.\ reduced\ by\ half\ after\ split.\n\ @param\ \ listB\ \ \ \ Contains\ last\ half\ of\ the\ original\ list\n
+comment4.params=listA\ listB
+comment4.target=java.util.LinkedList\ merge(java.util.LinkedList,\ java.util.LinkedList)
+comment4.text=\n\ \ Two\ linked\ lists\ listA\ and\ listB\ are\ merged\ into\ a\ single\n\ \ linked\ list\ mergedList.\ They\ are\ placed\ in\ mergedList\ starting\n\ \ with\ the\ smallest\ item\ on\ either\ list\ and\ continue\ working\ up\ to\n\ \ to\ largest\ item.\n\n\ @param\ \ listA\ \ \ LinkedList\ in\ nondecreasing\ order\n\ @param\ \ listB\ \ \ LinkedList\ in\ nondecreasing\ order\n\ @return\ \ \ \ \ \ \ \ \ List\ \ containing\ all\ the\ values\ from\ lists\ listA\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ and\ listB,\ in\ nondecreasing\ order\n
+comment5.params=listA
+comment5.target=java.util.LinkedList\ mergeSort(java.util.LinkedList)
+comment5.text=\n\ \ The\ linked\ list\ is\ returned\ in\ sorted\ order.\n\ \ Sorted\ order\ has\ the\ smallest\ item\ first\ and\ the\ largest\ item\n\ \ last.\ The\ ordering\ is\ determined\ by\ the\ order\ defined\ in\ the\n\ \ Comparable\ class.\ The\ method\ uses\ the\ merge\ sort\ technique\ and\n\ \ must\ be\ recursive.\n\n\ @param\ \ listA\ \ LinkedList\ to\ be\ sorted\n\ @return\ \ \ \ \ \ \ \ LinkedList\ in\ sorted\ (nondecreasing)\ order\n
+comment6.params=list
+comment6.target=java.util.LinkedList\ reverseList(java.util.LinkedList)
+comment6.text=\n\ \ Reverses\ the\ order\ of\ a\ list\n\n\ @param\ \ list\ \ LinkedList\ to\ be\ reversed\n\ @return\ \ \ \ \ \ \ List\ in\ reverse\ order\n
+comment7.params=args
+comment7.target=void\ main(java.lang.String[])
+comment7.text=\n\ \ The\ main\ program\ for\ the\ MergeList\ class\n\n\ @param\ \ args\ \ The\ command\ line\ arguments\ (not\ used)\n
+numComments=8
